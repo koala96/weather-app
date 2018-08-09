@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Simple Weather app made using JavaScript, JQuery and SaSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koala96/weather-app.git"
+  },
+  "author": "Srdjan Dobras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koala96/weather-app/issues"
+  },
+  "homepage": "https://github.com/koala96/weather-app#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
