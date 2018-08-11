@@ -1,6 +1,7 @@
-$backgorund-color: white;
-$statistics-color: rgb(175, 238, 247);
-$container-color: black;
+@import 'config';
+@import 'departure';
+@import 'destination';
+
 
 html, body {
     padding: 0;
@@ -14,7 +15,7 @@ html, body {
     position: relative;
     width: 600px;
     height: 600px;
-    border: 2px solid black;
+    background-size: cover;
     left: 50%;
     top: 50%;
     transform: translateX(-50%)translateY(-50%);
@@ -27,150 +28,10 @@ html, body {
     
         &-departure {
             left: 0;
-
-            .field {
-                margin-top: 20px;
-                width: 248px;
-                height: 30px;
-                border: 1px solid black;
-                margin-left: 20px;
-            }
-            .departureStats {
-                background: $statistics-color;
-                width: 248px;
-                border: 1px solid white;
-                border-radius: 5px;
-                padding: 10px;
-                margin-left: 20px;
-                margin-top: 20px;
-                margin-right: 5px;
-
-                h4 {
-                    margin-top: 5px;
-                    color: rgb(0, 73, 133);                  
-                }
-
-                p {
-                    font-weight: bold;
-                    margin: 0;
-                    color: rgb(0, 73, 133);
-                }
-            }
-
-            .departurePreview {
-               display: grid;;
-               grid-template-columns: repeat(4,1fr);
-               grid-template-areas:
-               'item1 item2 item3 item4';
-               border: 1px solid black;
-               margin-left: 20px;
-               margin-top: 10px;
-               margin-right: 5px;
-               height: 370px;
-
-               .item-1 {
-                   grid-area: item1;
-                   border-right: 1px solid black;
-                   height: 100%;
-                   text-align: center;
-                   font-size: 3rem;
-               }
-
-               .item-2 {
-                   grid-area: item2;
-                   border-right: 1px solid black;
-                   text-align: center;
-                   font-size: 3rem;
-               }
-
-               .item-3 {
-                    grid-area: item3;
-                    border-right: 1px solid black;
-                    text-align: center;
-                   font-size: 3rem;
-               }
-
-               .item-4 {
-                   grid-area: item4;
-                   text-align: center;
-                   font-size: 3rem;
-               }            
-            }
         }
 
         &-destination {
             right: 0;
-
-            .field {
-                margin-left: 5px;
-                margin-top: 20px;
-                width: 248px;
-                height: 30px;
-                border: 1px solid black;
-            }
-
-            .destinationStats {
-                background: $statistics-color;
-                width: 248px;
-                border: 1px solid white;
-                border-radius: 5px;
-                padding: 10px;
-                margin-top: 20px;
-                margin-left: 5px;
-                margin-right: 20px;
-
-                
-                h4 {
-                    margin-top: 5px;
-                    color: rgb(0, 73, 133);                    
-                }
-
-                p {
-                    font-weight: bold;
-                    margin: 0;
-                    color: rgb(0, 73, 133);
-                }
-            }
-
-            .destinationPreview {
-                display: grid;;
-                grid-template-columns: repeat(4,1fr);
-                grid-template-areas:
-                'item1 item2 item3 item4';
-                border: 1px solid black;
-                height: 370px;
-                margin-left: 5px;
-                margin-top: 10px; 
-                margin-right: 20px;
- 
-                .item-1 {
-                    grid-area: item1;
-                    border-right: 1px solid black;
-                    height: 100%;
-                    text-align: center;
-                    font-size: 3rem;
-                }
- 
-                .item-2 {
-                    grid-area: item2;
-                    border-right: 1px solid black;
-                    text-align: center;
-                    font-size: 3rem;
-                }
- 
-                .item-3 {
-                     grid-area: item3;
-                     border-right: 1px solid black;
-                     text-align: center;
-                    font-size: 3rem;
-                }
- 
-                .item-4 {
-                    grid-area: item4;
-                    text-align: center;
-                    font-size: 3rem;
-                } 
-             }
         }
     }
 }

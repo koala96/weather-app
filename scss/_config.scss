@@ -1,0 +1,37 @@
+$backgorund-image: url('img/math.jpg');
+$container-statistics-color: rgb(175, 238, 247);
+$container-preview-color: linear-gradient(rgb(2, 141, 255), rgb(112, 222, 241), rgb(112, 222, 241));
+$statistic-text-color: rgb(0, 73, 133);
+$preview-text-color: #fff;
+
+.cloudLow {
+    margin-top: 170px;
+}
+
+.cloudLowTrans {
+    margin-top: 170px;
+    opacity: 0.7;
+}
+
+.cloudMedium {
+    margin-top: 80px;
+}
+
+.cloudMediumTrans {
+    margin-top: 80px;
+    opacity: 0.7;
+}
+
+.cloudHigh {
+    margin-top: 0px;
+}
+
+.cloudHighTrans {
+    margin-top: 0px;
+    opacity: 0.7;
+}
+
+.sun {
+    margin-top: 80px;
+    color: yellow;
+}

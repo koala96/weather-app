@@ -1,0 +1,112 @@
+#inputField1 {
+    margin-top: 20px;
+    width: 248px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.departureStats {
+    background: $container-statistics-color;
+    width: 248px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+
+    h4 {
+        margin-top: 5px;
+        color: $statistic-text-color;
+    }
+
+    p {
+        font-weight: bold;
+        margin: 0;
+        color: $statistic-text-color;
+    }
+}
+
+.departurePreview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "item1 item2 item3 item4";
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 370px;
+
+    .item-1 {
+        grid-area: item1;
+        border-right: 1px solid white;
+        height: 100%;
+        text-align: center;
+        font-size: 3rem;
+        background: $container-preview-color;
+        color: $preview-text-color;
+
+        h6 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .item-2 {
+        grid-area: item2;
+        border-right: 1px solid white;
+        text-align: center;
+        font-size: 3rem;
+        background: $container-preview-color;
+        color: $preview-text-color;
+
+        h6 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .item-3 {
+        grid-area: item3;
+        border-right: 1px solid white;
+        text-align: center;
+        font-size: 3rem;
+        background: $container-preview-color;
+        color: $preview-text-color;
+
+        h6 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .item-4 {
+        grid-area: item4;
+        text-align: center;
+        font-size: 3rem;
+        background: $container-preview-color;
+        color: $preview-text-color;
+
+        h6 {
+            margin: 0;
+        }
+        
+        p {
+            font-size: 1rem;
+        }
+    }
+}

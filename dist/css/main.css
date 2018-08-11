@@ -1,3 +1,192 @@
+.cloudLow {
+  margin-top: 170px; }
+
+.cloudLowTrans {
+  margin-top: 170px;
+  opacity: 0.7; }
+
+.cloudMedium {
+  margin-top: 80px; }
+
+.cloudMediumTrans {
+  margin-top: 80px;
+  opacity: 0.7; }
+
+.cloudHigh {
+  margin-top: 0px; }
+
+.cloudHighTrans {
+  margin-top: 0px;
+  opacity: 0.7; }
+
+.sun {
+  margin-top: 80px;
+  color: yellow; }
+
+#inputField1 {
+  margin-top: 20px;
+  width: 248px;
+  height: 30px;
+  margin-left: 20px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.departureStats {
+  background: #afeef7;
+  width: 248px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 5px; }
+  .departureStats h4 {
+    margin-top: 5px;
+    color: #004985; }
+  .departureStats p {
+    font-weight: bold;
+    margin: 0;
+    color: #004985; }
+
+.departurePreview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "item1 item2 item3 item4";
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 370px; }
+  .departurePreview .item-1 {
+    grid-area: item1;
+    border-right: 1px solid white;
+    height: 100%;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .departurePreview .item-1 h6 {
+      margin: 0; }
+    .departurePreview .item-1 p {
+      font-size: 1rem; }
+  .departurePreview .item-2 {
+    grid-area: item2;
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .departurePreview .item-2 h6 {
+      margin: 0; }
+    .departurePreview .item-2 p {
+      font-size: 1rem; }
+  .departurePreview .item-3 {
+    grid-area: item3;
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .departurePreview .item-3 h6 {
+      margin: 0; }
+    .departurePreview .item-3 p {
+      font-size: 1rem; }
+  .departurePreview .item-4 {
+    grid-area: item4;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .departurePreview .item-4 h6 {
+      margin: 0; }
+    .departurePreview .item-4 p {
+      font-size: 1rem; }
+
+#inputField2 {
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 248px;
+  height: 30px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.destinationStats {
+  background: #afeef7;
+  width: 248px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 20px; }
+  .destinationStats h4 {
+    margin-top: 5px;
+    color: #004985; }
+  .destinationStats p {
+    font-weight: bold;
+    margin: 0;
+    color: #004985; }
+
+.destinationPreview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "item1 item2 item3 item4";
+  border: 1px solid white;
+  height: 370px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 20px; }
+  .destinationPreview .item-1 {
+    grid-area: item1;
+    border-right: 1px solid white;
+    height: 100%;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .destinationPreview .item-1 h6 {
+      margin: 0; }
+    .destinationPreview .item-1 p {
+      font-size: 1rem; }
+  .destinationPreview .item-2 {
+    grid-area: item2;
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .destinationPreview .item-2 h6 {
+      margin: 0; }
+    .destinationPreview .item-2 p {
+      font-size: 1rem; }
+  .destinationPreview .item-3 {
+    grid-area: item3;
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .destinationPreview .item-3 h6 {
+      margin: 0; }
+    .destinationPreview .item-3 p {
+      font-size: 1rem; }
+  .destinationPreview .item-4 {
+    grid-area: item4;
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(#028dff, #70def1, #70def1);
+    color: #fff; }
+    .destinationPreview .item-4 h6 {
+      margin: 0; }
+    .destinationPreview .item-4 p {
+      font-size: 1rem; }
+
 html, body {
   padding: 0;
   margin: 0;
@@ -9,7 +198,7 @@ html, body {
   position: relative;
   width: 600px;
   height: 600px;
-  border: 2px solid black;
+  background-size: cover;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%); }
@@ -20,107 +209,5 @@ html, body {
     overflow: hidden; }
     .container .split-departure {
       left: 0; }
-      .container .split-departure .field {
-        margin-top: 20px;
-        width: 248px;
-        height: 30px;
-        border: 1px solid black;
-        margin-left: 20px; }
-      .container .split-departure .departureStats {
-        background: #afeef7;
-        width: 248px;
-        border: 1px solid white;
-        border-radius: 5px;
-        padding: 10px;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-right: 5px; }
-        .container .split-departure .departureStats h4 {
-          margin-top: 5px;
-          color: #004985; }
-        .container .split-departure .departureStats p {
-          font-weight: bold;
-          margin: 0;
-          color: #004985; }
-      .container .split-departure .departurePreview {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: 'item1 item2 item3 item4';
-        border: 1px solid black;
-        margin-left: 20px;
-        margin-top: 10px;
-        margin-right: 5px;
-        height: 370px; }
-        .container .split-departure .departurePreview .item-1 {
-          grid-area: item1;
-          border-right: 1px solid black;
-          height: 100%;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-departure .departurePreview .item-2 {
-          grid-area: item2;
-          border-right: 1px solid black;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-departure .departurePreview .item-3 {
-          grid-area: item3;
-          border-right: 1px solid black;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-departure .departurePreview .item-4 {
-          grid-area: item4;
-          text-align: center;
-          font-size: 3rem; }
     .container .split-destination {
       right: 0; }
-      .container .split-destination .field {
-        margin-left: 5px;
-        margin-top: 20px;
-        width: 248px;
-        height: 30px;
-        border: 1px solid black; }
-      .container .split-destination .destinationStats {
-        background: #afeef7;
-        width: 248px;
-        border: 1px solid white;
-        border-radius: 5px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-left: 5px;
-        margin-right: 20px; }
-        .container .split-destination .destinationStats h4 {
-          margin-top: 5px;
-          color: #004985; }
-        .container .split-destination .destinationStats p {
-          font-weight: bold;
-          margin: 0;
-          color: #004985; }
-      .container .split-destination .destinationPreview {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: 'item1 item2 item3 item4';
-        border: 1px solid black;
-        height: 370px;
-        margin-left: 5px;
-        margin-top: 10px;
-        margin-right: 20px; }
-        .container .split-destination .destinationPreview .item-1 {
-          grid-area: item1;
-          border-right: 1px solid black;
-          height: 100%;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-destination .destinationPreview .item-2 {
-          grid-area: item2;
-          border-right: 1px solid black;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-destination .destinationPreview .item-3 {
-          grid-area: item3;
-          border-right: 1px solid black;
-          text-align: center;
-          font-size: 3rem; }
-        .container .split-destination .destinationPreview .item-4 {
-          grid-area: item4;
-          text-align: center;
-          font-size: 3rem; }
